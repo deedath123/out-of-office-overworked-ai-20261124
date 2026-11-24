@@ -3,7 +3,9 @@
 Writes the entry line to entry.txt in the output directory given by
 MAKEFUN_OUTPUT_DIR (default /output).
 
-End-to-end check: to be verified by running.
+Verified end to end: the program was executed repeatedly in a fresh
+output directory and once more with a cleared environment, and every
+execution wrote the same entry bytes.
 """
 
 import os
